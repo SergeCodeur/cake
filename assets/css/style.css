@@ -485,7 +485,7 @@ form .inputs textarea {
   padding: 8px 38px;
   margin-top: 20px;
   cursor: pointer;
-  transition: .2s ease-in;
+  transition: 0.2s ease-in;
 }
 .formulaire button[type="submit"]:hover {
   color: var(--secondary);
@@ -621,5 +621,11 @@ form .inputs textarea {
   }
   form .inputs-box input {
     width: 100%;
+  }
+}
+
+@media (min-width: 1570px) {
+  .banner-contains {
+    transform: translateX(190px);
   }
 }
